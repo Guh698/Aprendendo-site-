@@ -1,0 +1,33 @@
+.box {
+  border: solid black;
+  border-radius: 15px;
+  margin-top: 50px;
+  margin-right: 400px;
+  margin-left: 400px;
+  text-align: center;
+  background: #000;
+  color: white;
+}
+
+#botao {
+  color: #000000;
+  position: relative;
+  padding: 17px 40px;
+  border-radius: 50px;
+  border: 0;
+  background-color: #ffffff;
+  letter-spacing: 1.5px;
+  font-size: 17px;
+}
+#botao:hover {
+  letter-spacing: 3px;
+}
+#botao:active {
+  letter-spacing: 3px;
+  transform: translateY(10px);
+  transition: 200ms;
+}
+
+body {
+  background: #27292d;
+}
